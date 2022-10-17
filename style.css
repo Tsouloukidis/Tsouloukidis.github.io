@@ -15,7 +15,7 @@
 
 /* background image */
 body{
-  background-image: url('./images/background.jpg'); background-size: cover; background-repeat: no-repeat;
+  background-image: url('./images/background.jpg');  background-repeat: no-repeat; background-size: cover;
 }
 /* all text */
 .words{
@@ -147,7 +147,7 @@ p{
   background-color: gray;
   width: 100%;
   bottom: 0;
-  position: absolute;
+  position: fixed;
 }
 
 #footer:hover{

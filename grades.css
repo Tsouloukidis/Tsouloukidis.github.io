@@ -76,6 +76,8 @@
   #footer{
     background-color: gray;
     width: 204.5%;
+    bottom: 0;
+    position: fixed;
   }
   
   #footer:hover{
