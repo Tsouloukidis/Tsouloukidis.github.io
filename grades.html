@@ -5,13 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Grades</title>
+    <link rel="stylesheet" href="./grades.css">
 </head>
-<body style="background-image: url(./images/background.jpg); background-size:cover;">
+<body style="background-image: url(./images/background.jpg); background-size:cover; background-repeat: no-repeat;">
+     <!-- navigation bar menu -->
+     <nav class="navbar">
+        <div class="menubtn">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div> 
+          </div>
+        <ul>
+          <li class="nav-item"><a class="link" href="./about.html" target="_blank">About me</a> </li>
+          <li class="nav-item"><a class="link" href="./projects.html" target="_blank">Projects</a> </li>
+          <li class="nav-item"><a class="link" href="./grades.html" target="_blank">Grades</a> </li>
+          </ul>
+        </nav>
+        <!-- content -->
     <h1 style="color: white;  background-color: rgb(166, 60, 6, 0.1); text-align: center;">Hi these are my grades</h1>
     <hr>
-    <div style="margin-left: 30%;"><img src="./images/Screenshot_1.png" alt="transcript"></div>
+    <div style="margin-left: 30%; margin-top: 1%;"><img src="./images/Screenshot_1.png" alt="transcript"></div>
     <div style="margin-left: 30%;"><img src="./images/Screenshot_2.png" alt="transcript"></div>
     <div style="margin-left: 30%;"><img src="./images/Screenshot_3.png" alt="transcript"></div>
+
+     <!-- social media, email, footer -->
+     <footer id="footer">
+
+        <div class="flex">
+          <div>
+          <a href="https://www.facebook.com/zisis.tsouloukidis" target="_blank"><img width="25" src="images/facebook.png" alt="Facebook"></a>
+        </div>
+        <div class="margin">
+          <a href="https://www.instagram.com/zisistsouloukidis/" target="_blank"><img width="25" src="images/instagram.png" alt="Instagram"></a>
+        </div>
+        <div class="margin">
+          <a href="https://www.linkedin.com/in/zisis-tsouloukidis-56071b106" target="_blank"><img width="25" src="images/linkedin.png" alt="Linkedin"></a>
+        </div>
+        <div class=" mail">
+           <a id="email" href="mailto:z-isis@windowslive.com">z-isis@windowslive.com</a>
+        </div>
+        <div><p>Made by Tsouloukidis Zisis</p></div>
+        
+      </div>
+
+    </footer>
+
+    <script src="./index.js">
+      
+    </script>
     
 </body>
 </html>

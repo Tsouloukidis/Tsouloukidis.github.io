@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    margin-top: 1%;
+}
+
+
+/* the menu bar */
+.navbar{
+    background-color: brown;
+    width: auto;
+    height: 100%;
+    position: absolute;
+    position: fixed;
+    left: -300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s  left;
+  }
+  
+  /* for js to where to open the bar */
+  .change{
+    left: 0px;
+    }
+  
+    /* the menu bar position  */
+  .menubtn{
+    width: 35px;
+    height: 30px;
+    position: fixed;
+    top: 5%;
+    left: 1%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: black;
+  }
+  
+  /* the lines in the menu bar */
+  .line{
+    background-color:yellow;
+    width: 100%;
+    height: 4px;
+    transition: all;
+  }
+  
+  /* the first line bend */
+  .change .line-1{
+    transform: rotateZ(45deg)translate(8px,6px);  
+  }
+  
+  /* we dissapear the middle line in order to see the x */
+  .change .line-2{
+      opacity: 0;
+  }
+  
+  /* the third line bend oposite from the first */
+  .change .line-3{
+      transform: rotateZ(-45deg)translate(8px,-6px);
+  }
+  
+  /* decoration for the whats inside the menu */
+  .nav-item{
+    list-style: none;
+    margin: 50px;
+  }
+  
+  /* decoration for the links */
+  .link{
+    color: yellow;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  /* footer background */
+  #footer{
+    background-color: gray;
+    width: 100%;
+    margin-top: 10.6%;
+  }
+  
+  #footer:hover{
+    background-color: red;
+  }
+  /* email customization */
+  .mail{
+    color: whitesmoke;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #email{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  #email:hover{
+    color: blue;
+  }
+  /* social media icons */
+  .margin{
+    margin-left: 10px;
+  }
+  
+  /* social images in a row */
+  .flex{
+    display: flex;
+    margin-left: 4%;
+  }
